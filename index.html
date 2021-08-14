@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Article Preview</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="grid place-items-center h-screen bg-green-100 px-4">
+    <div
+      class="
+        w-full
+        lg:max-w-screen-md
+        bg-gray-50
+        max-w-sm
+        md:max-w-none
+        flex flex-col
+        md:flex-row
+        rounded-xl
+        overflow-hidden
+      "
+    >
+      <img
+        class="h-60 object-cover md:h-auto md:w-80"
+        src="./images/drawers.jpg"
+        alt=""
+      />
+      <main class="pt-6 px-8 pb-2 text-gray-700">
+        <h2 class="font-semibold mt-2 mb-4">
+          Shift the overall look and feel by adding these wonderful touches to
+          furniture in your home
+        </h2>
+        <p class="text-sm">
+          Ever been in a room and felt like something was missing? Perhaps it
+          felt slightly bare and uninviting. I’ve got some simple tips to help
+          you make any room feel complete. Michelle Appleton 28 Jun 2020 Share
+        </p>
+        <div class="flex align-center mb-4 mt-6">
+          <img
+            class="w-12 rounded-full object-cover h-12"
+            src="./images/avatar-michelle.jpg"
+            alt=""
+          />
+          <div class="ml-2">
+            <p>Michelle Appleton</p>
+            <p>28 Jun 2021</p>
+          </div>
+          <button class="ml-auto text-gray-700">
+            <svg
+              class="fill-current w-10"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19,22V10V9V4c0-1.103-0.897-2-2-2H7C5.897,2,5,2.897,5,4v5v1v12l7-4.666L19,22z M8.006,8.056 c0-0.568,0.224-1.083,0.585-1.456c0.361-0.372,0.86-0.603,1.412-0.603c0,0,0.996-0.003,1.997,1.029 c1.001-1.032,1.997-1.029,1.997-1.029c0.552,0,1.051,0.23,1.412,0.603c0.361,0.373,0.585,0.888,0.585,1.456 s-0.224,1.084-0.585,1.456L12,13.203L8.591,9.512C8.229,9.14,8.006,8.624,8.006,8.056z"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
